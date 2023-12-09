@@ -1,0 +1,42 @@
+var menuList = document.getElementById("menuList");
+menuList.style.maxHeight = "0px";
+function togglemenu() {
+  if (menuList.style.maxHeight == "0px") {
+    menuList.style.maxHeight = "150px";
+  } else {
+    menuList.style.maxHeight = "0px";
+  }
+}
+
+function show() {
+  var videocontainer = document.querySelector(".video-container");
+  var video = document.querySelector("video");
+  videocontainer.classList.toggle("active");
+  video.pause();
+  video.currentTime = 0;
+}
+
+var slides = document.querySelector(".slider-items").children;
+var nextSlide = document.querySelector(".right-slide");
+var preSlide = document.querySelector(".left-slide");
+var totalSlides = slides.length;
+var index = 0;
+
+nextSlide.onclick = function () {
+  next("next");
+};
+preSlide.onclick = function () {
+  next("pre");
+};
+function next(direction) {
+  if ((direction = "next")) {
+    index++;
+    if (index == totalSlides) {
+      index = 0;
+    }
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  slides[index].classList.add("active");
+}
