@@ -1,0 +1,485 @@
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9258a3512c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--   header starts from here... -->
+  <header>
+    <div class="unity">
+      <h3>UNITY</h3>
+    </div>
+    <nav class="menu-items" id="navbar">
+      <ul id="menuList">
+        <li><a href="#">All</a></li>
+        <li><a href="#">Web Designs</a></li>
+        <li><a href="#">Mobile</a></li>
+        <li><a href="#">Photography</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon">
+      <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632498254/Rectangle_33_copy_2_g03xtc.png" alt="" class="menu-icon" onclick="togglemenu()" />
+    </div>
+
+  </header>
+  <div class="social-icon-container">
+    <div class="social-icon">
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="vertical-bar-top"></div>
+  </div>
+
+  <div class="main-banner">
+
+    <h2>It started with an Idea</h2>
+
+    <a onclick="show();" class="btn11"><i class="fas fa-play"></i> watch intro video</a>
+    <button type="submit" class="submit-button">
+      DISCOVER
+    </button>
+  </div>
+  <!-- Container1 starts from here-->
+
+  <section class="container1">
+
+    <div class="section-left">
+
+      <div class="slidershow">
+
+        <div class="slides">
+
+          <input type="radio" name="r" id="r1" checked>
+          <input type="radio" name="r" id="r2">
+          <input type="radio" name="r" id="r3">
+          <input type="radio" name="r" id="r4">
+          <input type="radio" name="r" id="r5">
+
+          <div class="slide s1">
+            <p>Services One</p>
+            <h2>We brings a <br> wonderful <b>artistic</b> <br> sense to project</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p>
+          </div>
+
+          <div class="slide">
+            <p>Services Two</p>
+            <h2>We brings a <br> wonderful <b>artistic</b> <br> sense to project</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p>
+          </div>
+
+          <div class="slide">
+            <p>Services Three</p>
+            <h2>We brings a <br> wonderful <b>artistic</b> <br> sense to project</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p>
+          </div>
+
+          <div class="slide">
+            <p>Services Four</p>
+            <h2>We brings a <br> wonderful <b>artistic</b> <br> sense to project</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p>
+          </div>
+
+          <div class="slide">
+            <p>Services Five</p>
+            <h2>We brings a <br> wonderful <b>artistic</b> <br> sense to project</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p>
+          </div>
+
+        </div>
+
+        <div class="navigation">
+          <label for="r1" class="bar">
+            <h3>1</h3>
+          </label>
+          <label for="r2" class="bar">
+            <h3>2</h3>
+          </label>
+          <label for="r3" class="bar">
+            <h3>3</h3>
+          </label>
+          <label for="r4" class="bar">
+            <h3>4</h3>
+          </label>
+          <label for="r5" class="bar">
+            <h3>5</h3>
+          </label>
+        </div>
+      </div>
+    </div>
+    <!-- right section starts from here... -->
+
+    <div class="slider">
+      <div class="slider-items">
+        <div class="item active">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631105117/Macbook_ulkgzo.png">
+        </div>
+        <div class="item">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1633333094/Macbook_2_v8b56v.png">
+
+        </div>
+        <div class="item">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1633333095/Macbook_cjex4b.png">
+        </div>
+      </div>
+      <div class="main-navigation-button-div">
+        <div class="left-slide"><i class="fa fa-angle-left"></i></div>
+        <div class="right-slide"><i class="fa fa-angle-right"></i></div>
+      </div>
+    </div>
+  </section>
+  <!-- Designer container starts from here  -->
+  <div class="vertical-slider">
+
+    <input type="radio" name="slide" id="slide-1" checked>
+    <input type="radio" name="slide" id="slide-2">
+    <input type="radio" name="slide" id="slide-3">
+
+    <div class="vertical-slides">
+      <div class="vertical-slide slide-1">
+        <div class="slide-data">
+          <h2>Slide 1</h2>
+          <p>This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph </p>
+          <div class="signature">
+            <div class="line-orange"></div>
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631948450/Layer_36-removebg-preview_pyvghk.png">
+          </div>
+        </div>
+      </div>
+      <div class="vertical-slide slide-2">
+        <div class="slide-data">
+          <h2>Slide 1</h2>
+          <p>This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph </p>
+          <div class="signature">
+            <div class="line-orange"></div>
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631948450/Layer_36-removebg-preview_pyvghk.png">
+          </div>
+        </div>
+      </div>
+      <div class="vertical-slide slide-3">
+        <div class="slide-data">
+          <h2>Slide 1</h2>
+          <p>This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph This is paragraph </p>
+          <div class="signature">
+            <div class="line-orange"></div>
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631948450/Layer_36-removebg-preview_pyvghk.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="counter">
+
+      <label for="slide-1">01</label>
+      <label for="slide-2">02</label>
+      <label for="slide-3">03</label>
+    </div>
+    <div class="arrow arrow-left">
+      <label for="slide-3">
+        <span><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632938050/Vector_Smart_Object_copy_2_nioukp.png"></span>
+      </label>
+      <label for="slide-1">
+        <span><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632938050/Vector_Smart_Object_copy_2_nioukp.png"></span>
+      </label>
+      <label for="slide-2">
+        <span><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632938050/Vector_Smart_Object_copy_2_nioukp.png"></span>
+      </label>
+    </div>
+    <div class="arrow arrow-right">
+      <label for="slide-2">
+        <span><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632938050/Vector_Smart_Object_obam9a.png"></span>
+      </label>
+      <label for="slide-3">
+        <span><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632938050/Vector_Smart_Object_obam9a.png"></span>
+      </label>
+      <label for="slide-1">
+        <span><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632938050/Vector_Smart_Object_obam9a.png"></span>
+      </label>
+    </div>
+  </div>
+
+  <!-- What we have done. container2 starts from here  -->
+
+  <section id="container2" class="container2">
+    <h1>What we have done.</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestiae distinctio? Quasi et <br>
+      necessitatibus est commodi sint reiciendis ad atque nulla repellat facilis.
+    </p>
+    <input type="radio" name="photos" id="check1" checked>
+    <input type="radio" name="photos" id="check2">
+    <input type="radio" name="photos" id="check3">
+    <input type="radio" name="photos" id="check4">
+
+    <section class="images-container">
+
+      <div class="photo-menu">
+        <label for="check1">All</label>
+        <label for="check2">Web Designs</label>
+        <label for="check3">Mobile</label>
+        <label for="check4">Photography</label>
+      </div>
+
+      <div class="photo-gallery">
+        <div class="pic all-photos">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631650826/Layer_38_rooq1w.png" alt="">
+        </div>
+
+        <div class="pic web-designs">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631650826/Layer_39_kjzevw.png" alt="">
+        </div>
+        <div class="pic web-designs">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1633072390/website-design_tcndxn.jpg" alt="">
+        </div>
+
+        <div class="pic mobile">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631900719/Layer_40_oqjx43.png" alt="">
+        </div>
+        <div class="pic mobile">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1633072390/mobile_ax0rbq.jpg" alt="">
+        </div>
+
+        <div class="pic photography">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631900719/Layer_41_cvg28m.png" alt="">
+        </div>
+        <div class="pic photography">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631900717/Layer_42_suuat3.png" alt="">
+        </div>
+        <div class="pic photography">
+          <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1631900719/Layer_43_lbutqv.png" alt="">
+        </div>
+
+      </div>
+    </section>
+
+  </section>
+  <!-- container3 Your-money section starts from here  -->
+  <section id="container3" class="container3">
+
+    <h1>Your money <br>is your, we don't take a cut</h1>
+    <p>
+      Our passionn is to create solutions which could give that extra value to your product<br> service or to business in general.
+    </p>
+
+  </section>
+
+  <section id="your-money" class="your-money">
+
+    <div class="box">
+      <i class="fas fa-mouse"></i>
+      <h2>Design</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, eligendi totam aut iste iusto pariatur ex dignissimos molestiae maiores quae nesciunt magni? At?</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-code"></i>
+      <h2>Development</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, eligendi totam aut iste iusto pariatur ex dignissimos molestiae maiores quae nesciunt magni? At?</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-tv"></i>
+      <h2>Deployment</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, eligendi totam aut iste iusto pariatur ex dignissimos molestiae maiores quae nesciunt magni? At?</p>
+    </div>
+    <div class="box">
+      <i class="far fa-images"></i>
+      <h2>UI / UX</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, eligendi totam aut iste iusto pariatur ex dignissimos molestiae maiores quae nesciunt magni? At?</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-mobile-alt"></i>
+      <h2>ios Development</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, eligendi totam aut iste iusto pariatur ex dignissimos molestiae maiores quae nesciunt magni? At?</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-bullhorn"></i>
+      <h2>Marketing</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, eligendi totam aut iste iusto pariatur ex dignissimos molestiae maiores quae nesciunt magni? At?</p>
+    </div>
+  </section>
+  <!-- container4 starts from here... -->
+  <section class="model" id="container4">
+    <div class="intro-image">
+      <a onclick="show();" class="btn"><i class="fas fa-play"></i> watch intro video</a>
+      <div class="video-container">
+        <video src="https://res.cloudinary.com/ddy6w8jz4/video/upload/v1633111157/Join_Unity_pzozou.mp4" controls></video>
+        <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1633200197/abort-g3552e9e91_640_u8ly2s.png" class="close" onclick="show();">
+      </div>
+    </div>
+  </section>
+  <!-- container5 starts from here... -->
+
+  <section id="container5" class="container5">
+
+    <h1>We love our clients</h1>
+    <p>
+      Our passionn is to create solutions which could give that extra value to your product<br> service or to business in general.
+    </p>
+
+    <div class="vertical-bar"></div>
+
+    <!--      /* testimonial section  */ -->
+    <div class="Testimonial">
+
+      <div class="slidershow1">
+
+        <div class="all-slides">
+
+          <input type="radio" name="rr" id="rr1" checked>
+          <input type="radio" name="rr" id="rr2">
+          <input type="radio" name="rr" id="rr3">
+          <input type="radio" name="rr" id="rr4">
+
+          <div class="slide1 ss1">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p> <span>REBECA MATHEWS<br>
+              <a href="#">CEO UNITY.COM</a>
+            </span>
+          </div>
+
+          <div class="slide1">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p> <span>John Seena<br>
+              <a href="#">Manager UNITY.COM</a>
+            </span>
+          </div>
+
+          <div class="slide1">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p><span>Rambo sweet<br>
+              <a href="#">cheif Organizer UNITY.COM</a>
+            </span>
+          </div>
+
+          <div class="slide1">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a
+              page when looking at its layout. The point of using Lorem Ipsum is that it has a
+              more-or-less normal distribution of letters.</p><span>MATHEWS<br>
+              <a href="#">CEO UNITY.COM</a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="testimonial-label">
+
+          <label for="rr1">
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632059675/Layer_14_rqlpiy.png" alt="">
+          </label>
+          <label for="rr2" class="circle">
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632059675/Layer_11_guzb4x.png" alt="" active>
+          </label>
+          <label for="rr3" class="circle">
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632059805/Layer_12_eujgvs.png" alt="">
+          </label>
+          <label for="rr4" class="circle">
+            <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632059805/Layer_13_qxnn9o.png" alt="">
+          </label>
+        </div>
+
+      </div>
+    </div>
+
+    <!--     testimonial end -->
+
+    <div class="clients-banner">
+      <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632072901/Layer_32_vzuzym.png">
+    </div>
+    <div class="clients-logos">
+      <img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632077658/Layer_2_pamrsp.png" />
+    </div>
+  </section>
+
+  <footer class="footer-grid">
+    <div class="inner-links-section">
+      <div class="links">
+
+        <ul class="list-style">
+          <li>
+            <h3>LINKS</h3>
+          </li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>About</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Contact</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Services</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Blog</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Home</a></li>
+        </ul>
+      </div>
+      <div class="About-links">
+
+        <ul class="list-style">
+
+          <li><a href="#"><i class="fas fa-greater-than"></i>About</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Contact</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Services</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Blog</a></li>
+          <li><a href="#"><i class="fas fa-greater-than"></i>Home</a></li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <ul class="list-style">
+          <li>
+            <h3>CONTACT</h3>
+          </li>
+          <li><a href="#"><i class="fas fa-map-marker-alt"></i>171,&nbsp;Pine Vally, Pakpattan, Pakistan <br></a></li>
+          <li><a href="#"><i class="far fa-envelope"></i>abc@gmail.com</a></li>
+          <li><a href="#"><i class="fas fa-phone-alt"></i>+92-300-8755-067</a></li>
+          <li><a href="#"><i class="fab fa-unity"></i>theunit.com</a></li>
+
+        </ul>
+      </div>
+      <div class="form">
+
+        <form class="list-style">
+
+          <input type="text" name="myname" id="" placeholder="Name">
+          <input type="text" name="myemail" id="" placeholder="Email">
+          <textarea type="text" name="comment" placeholder="Comments"></textarea>
+          <div class="btn-send">
+            <input type="submit" action="" name="" value="SEND" />
+          </div>
+        </form>
+      </div>
+      <div class="instagram-feed">
+        <h3>INSTAGRAM FEED</h3>
+        <div class="list-style">
+
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155425/Layer_71_copy_lutynt.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155425/Layer_70_copy_ljstzh.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155425/Layer_69_copy_xwlijz.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155425/Layer_68_copy_mtu9hn.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155424/Layer_67_copy_rixeh9.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155425/Layer_66_copy_zjpd26.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155424/Layer_65_copy_iyy3kg.png"></div>
+          <div><img src="https://res.cloudinary.com/ddy6w8jz4/image/upload/v1632155424/Layer_64_copy_csvcm2.png"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <hr>
+  <div class="sub-footer">
+
+    <h3> &copy; Unity.All Rights Reserved. Terms of use. Privacy Policy</h3>
+    <h3>Designed and Developed by RanaDevelopers</h3>
+  </div>
+
+</body>
